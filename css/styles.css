@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+a:-webkit-any-link{
+  cursor: pointer;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  border-width: 7px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.top-container {
+  background-color: #cffffe;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.python-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #47cfb1;
+  background-image: linear-gradient(to bottom, #47cfb1, #47cfb1);
+  text-decoration: none;
+}
+
+.middle-container{
+  margin: 100px auto;
+}
+
+.bottom-container{
+  margin: 12px auto;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+  font-weight: normal;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+/*
+.python-skill-description{
+  clear: left;
+}
+
+.webdev-skill-description{
+  clear: right;
+}
+*/
